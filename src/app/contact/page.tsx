@@ -17,26 +17,25 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
-      <PageHero 
+      <PageHero
         title="Hubungi Kami"
         description="Kami siap membantu Anda. Jangan ragu untuk menghubungi kami jika ada pertanyaan."
       />
-      
+
       <Section>
         <Container>
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
-            
+
             <div className="lg:col-span-4 space-y-6">
               <h2 className="text-2xl font-bold mb-6 text-text-heading">Informasi Kontak</h2>
-              
+
               <Card className="p-6 flex items-start gap-4 bg-bg-soft">
                 <MapPin className="text-primary shrink-0 mt-1" />
                 <div>
                   <h4 className="font-bold text-text-heading mb-1">Alamat Kampus</h4>
                   <p className="text-text-body text-sm leading-relaxed">
-                    Jl. Raya Garut - Tasikmalaya No. 123<br/>
-                    Kabupaten Garut, Jawa Barat 44151<br/>
-                    Indonesia
+                    Jl. Pembangunan No. 161A, Sukagalih, Kecamatan Tarogong Kidul,<br />
+                    Kabupaten Garut, Jawa Barat<br />
                   </p>
                 </div>
               </Card>
@@ -83,7 +82,7 @@ export default function ContactPage() {
                 </form>
               </Card>
             </div>
-            
+
           </div>
         </Container>
       </Section>

@@ -81,7 +81,7 @@ Used for:
 - Buttons
 
 ```css
-#0F766E
+#C0392B
 ```
 
 ---
@@ -89,7 +89,7 @@ Used for:
 ## Primary Hover
 
 ```css
-#115E59
+#A93226
 ```
 
 ---
@@ -102,7 +102,7 @@ Used for:
 - Dark Sections
 
 ```css
-#14532D
+#7B241C
 ```
 
 ---

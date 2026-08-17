@@ -1,21 +1,49 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #0F766E;
-  --color-primary-hover: #115E59;
-  --color-secondary: #14532D;
+  /* ========================================
+   * PRIMARY — Red (was Teal/Green)
+   * ======================================== */
+  --color-primary: #C0392B;
+  --color-primary-hover: #A93226;
+  --color-primary-light: #FADBD8;
+  --color-primary-subtle: #FDF2F1;
+
+  /* ========================================
+   * SECONDARY — Deep Maroon (was Deep Green)
+   * ======================================== */
+  --color-secondary: #7B241C;
+  --color-secondary-deep: #641E16;
+
+  /* ========================================
+   * ACCENT — Gold (unchanged)
+   * ======================================== */
   --color-accent: #F59E0B;
-  
+  --color-accent-light: #FEF3C7;
+
+  /* ========================================
+   * BACKGROUND
+   * ======================================== */
   --color-bg-main: #FFFFFF;
   --color-bg-secondary: #FAFAFA;
-  --color-bg-soft: #F3F4F6;
-  
+  --color-bg-soft: #F8F5F5;
+
+  /* ========================================
+   * TEXT
+   * ======================================== */
   --color-text-heading: #111827;
   --color-text-body: #374151;
   --color-text-muted: #6B7280;
-  
-  --color-border-main: #E5E7EB;
 
+  /* ========================================
+   * BORDER
+   * ======================================== */
+  --color-border-main: #E5E7EB;
+  --color-border-soft: #F3E8E8;
+
+  /* ========================================
+   * FONTS
+   * ======================================== */
   --font-heading: var(--font-plus-jakarta-sans), sans-serif;
   --font-body: var(--font-inter), sans-serif;
 }
@@ -25,22 +53,49 @@
   --foreground: var(--color-text-body);
 }
 
+/* ==========================================
+ * BASE STYLES
+ * ========================================== */
 body {
   background-color: var(--background);
   color: var(--foreground);
   font-family: var(--font-body);
-  /* Text antialiasing for modern appearance */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
-  color: var(--color-text-heading);
+  /* color intentionally omitted — use Tailwind text-* utilities per component */
   line-height: 1.1;
   letter-spacing: -0.015em;
 }
 
 p {
   line-height: 1.7;
+}
+
+/* ==========================================
+ * SCROLLBAR
+ * ========================================== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-hover);
+}
+
+/* ==========================================
+ * SELECTION
+ * ========================================== */
+::selection {
+  background: var(--color-primary-light);
+  color: var(--color-primary-hover);
 }
