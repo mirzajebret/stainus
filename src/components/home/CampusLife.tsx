@@ -22,7 +22,7 @@ export default function CampusLife() {
           align="center"
         />
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
           {campusImages.map((img, i) => (
             <ImageCard key={i} src={img.src} alt={img.caption} caption={img.caption} />
           ))}
