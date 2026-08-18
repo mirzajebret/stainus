@@ -28,7 +28,7 @@ export default function ChairmanWelcome() {
               {/* Gradient overlay at bottom */}
               <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-secondary/70 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-6">
-                <p className="text-white font-bold text-lg leading-tight">Hj. Netu Yuliawati, S.IP,. M.Si</p>
+                <p className="text-white font-bold text-lg leading-tight">Hj. Neti Yuliawati, S.IP,. M.Si</p>
                 <p className="text-white/75 text-sm mt-1">WK 2 STAINUS Garut</p>
               </div>
             </div>
