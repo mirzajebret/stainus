@@ -69,7 +69,7 @@ export default function Navbar() {
           <div className="flex items-center gap-6 text-[13px]">
             <a href="tel:+6226123456" className="flex items-center gap-1.5 hover:text-white transition-colors group">
               <Phone size={13} className="text-primary group-hover:text-accent transition-colors" />
-              <span>+62 262 123456</span>
+              <span>+62 823 1895 4677</span>
             </a>
             <a href="mailto:info@stainus.ac.id" className="flex items-center gap-1.5 hover:text-white transition-colors group">
               <Mail size={13} className="text-primary group-hover:text-accent transition-colors" />
