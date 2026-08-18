@@ -46,11 +46,11 @@ export default function Hero() {
 
           {/* Main Heading */}
           <h1 className="text-4xl md:text-5xl lg:text-[62px] font-extrabold text-white leading-[1.08] tracking-tight mb-6">
-            Membangun Peradaban Islam{' '}
+            Membangun Peradaban Islam yang{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-amber-300">
-              yang Unggul
+               Profesional, Religius & Futuristik
             </span>{' '}
-            dan Profesional
+            
           </h1>
 
           {/* Description */}
