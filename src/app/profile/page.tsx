@@ -42,7 +42,7 @@ export default function ProfilePage() {
                 <SectionTitle label="Visi" title="Visi Kami" className="mb-6" />
                 <Card className="bg-primary text-white border-none p-8">
                   <p className="text-xl font-medium leading-relaxed">
-                    "Menjadi Perguruan Tinggi Agama Islam yang unggul, profesional, dan berdaya saing global dengan berlandaskan nilai-nilai Islam Ahlussunnah wal Jama'ah pada tahun 2030."
+                    "Menjadi Perguruan Tinggi Agama Islam yang unggul, profesional, dan berdaya saing global"
                   </p>
                 </Card>
               </div>
