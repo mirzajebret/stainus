@@ -20,7 +20,7 @@ export default function ChairmanWelcome() {
 
             <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-xl border border-border-main/50 z-10">
               <Image
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop"
+                src="images/foto_hj_neti.png"
                 alt="Ketua STAINUS Garut"
                 fill
                 className="object-cover"
@@ -28,8 +28,8 @@ export default function ChairmanWelcome() {
               {/* Gradient overlay at bottom */}
               <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-secondary/70 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-6">
-                <p className="text-white font-bold text-lg leading-tight">Dr. H. Ahmad Saefuddin, M.Ag.</p>
-                <p className="text-white/75 text-sm mt-1">Ketua STAINUS Garut</p>
+                <p className="text-white font-bold text-lg leading-tight">Hj. Netu Yuliawati, S.IP,. M.Si</p>
+                <p className="text-white/75 text-sm mt-1">WK 2 STAINUS Garut</p>
               </div>
             </div>
 
