@@ -7,8 +7,8 @@ import { ArrowRight, Award, Users, BookOpen } from 'lucide-react';
 
 const badges = [
   { icon: Award, text: 'Terakreditasi BAN-PT', sub: 'Peringkat B' },
-  { icon: Users, text: '1.200+ Mahasiswa', sub: 'Aktif saat ini' },
-  { icon: BookOpen, text: '8 Program Studi', sub: 'S1 & Diploma' },
+  { icon: Users, text: '120+ Mahasiswa', sub: 'Aktif saat ini' },
+  { icon: BookOpen, text: '2 Program Studi', sub: 'Hukum & Ekonomi' },
 ];
 
 export default function Hero() {
