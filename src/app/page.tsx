@@ -11,7 +11,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <Stats />
+      {/* <Stats /> */}
       <ChairmanWelcome />
       <ProgramsPreview />
       <CampusLife />
