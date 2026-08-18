@@ -43,16 +43,14 @@ const socials = [
 const quickLinks = [
   { href: '/profile', label: 'Profil STAINUS' },
   { href: '/programs', label: 'Program Studi' },
-  { href: '/admissions', label: 'PMB 2025' },
+  { href: '/admissions', label: 'PMB 2026' },
   { href: '/news', label: 'Berita & Pengumuman' },
   { href: '/contact', label: 'Hubungi Kami' },
 ];
 
 const programs = [
-  { href: '/programs#pai', label: 'Pendidikan Agama Islam' },
   { href: '/programs#hki', label: 'Hukum Keluarga Islam' },
-  { href: '/programs#mpi', label: 'Manajemen Pendidikan Islam' },
-  { href: '/programs#ips', label: 'Ilmu Al-Qur\'an & Tafsir' },
+  { href: '/programs#mpi', label: 'Ekonomi Syariah' },
 ];
 
 
