@@ -24,8 +24,8 @@ export default function Hero() {
           priority
         />
         {/* Multi-layer overlay for depth */}
-        <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/80 to-secondary/40" />
-        <div className="absolute inset-0 bg-gradient-to-t from-secondary/60 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-secondary/60 via-secondary/10 to-secondary/10" />
+        {/* <div className="absolute inset-0 bg-gradient-to-t from-secondary/60 via-transparent to-transparent" /> */}
       </div>
 
       {/* ── Decorative geometric elements ── */}
