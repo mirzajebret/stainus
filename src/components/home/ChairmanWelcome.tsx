@@ -34,10 +34,10 @@ export default function ChairmanWelcome() {
             </div>
 
             {/* Experience badge */}
-            <div className="absolute -right-6 top-10 bg-primary text-white rounded-2xl px-4 py-3 shadow-lg shadow-primary/30 z-20 hidden lg:block">
+            {/* <div className="absolute -right-6 top-10 bg-primary text-white rounded-2xl px-4 py-3 shadow-lg shadow-primary/30 z-20 hidden lg:block">
               <p className="text-3xl font-extrabold leading-none">25+</p>
               <p className="text-white/80 text-xs mt-1 font-medium">Tahun<br />Berpengalaman</p>
-            </div>
+            </div> */}
           </div>
 
           {/* Text column */}
