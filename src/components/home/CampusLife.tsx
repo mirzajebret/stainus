@@ -5,10 +5,10 @@ import SectionTitle from '../common/SectionTitle';
 import ImageCard from '../common/ImageCard';
 
 const campusImages = [
-  { src: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=2070&auto=format&fit=crop", caption: "Gedung Utama Kampus" },
-  { src: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop", caption: "Diskusi Mahasiswa" },
-  { src: "https://images.unsplash.com/photo-1565022536102-f7645c84354a?q=80&w=2073&auto=format&fit=crop", caption: "Perpustakaan Modern" },
-  { src: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2070&auto=format&fit=crop", caption: "Seminar Akademik" }
+  { src: "images/gedung-utama-kampus.png", caption: "Gedung Utama Kampus" },
+  { src: "images/hero-bg-mahasiswa.png", caption: "Diskusi Mahasiswa" },
+  { src: "fotbar_staff.png", caption: "Staff Kampus" }
+
 ];
 
 export default function CampusLife() {
