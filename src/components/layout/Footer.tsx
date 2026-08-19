@@ -90,17 +90,17 @@ export default function Footer() {
               <Image
                 src="/images/LOGO-STAINUS-GARUT.png"
                 alt="Logo STAINUS"
-                width={48}
-                height={48}
-                className="object-contain brightness-0 invert"
+                width={64}
+                height={64}
+                className="object-contain"
               />
               <div className="leading-none">
-                <span className="font-extrabold text-2xl tracking-tight block">STAINUS</span>
-                <span className="text-[10px] text-white/50 tracking-widest uppercase">Garut</span>
+                <span className="font-extrabold text-2xl tracking-tight block">STAINUS GARUT</span>
+                <span className="text-[10px] text-white/50 tracking-widest uppercase">Sekolah Tinggi Agama Islam Nusantara Garut</span>
               </div>
             </div>
             <p className="text-white/70 text-sm leading-relaxed mb-6">
-              Sekolah Tinggi Agama Islam Nusantara Garut — membangun peradaban Islam yang unggul,
+              Membangun peradaban Islam yang unggul,
               profesional, dan berakhlak mulia dengan wawasan global berlandaskan nilai-nilai ahlus sunnah wal jama'ah.
             </p>
 
