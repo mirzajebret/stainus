@@ -98,7 +98,7 @@ export default function Navbar() {
               href="/admissions"
               className="text-[12px] font-semibold bg-primary/80 hover:bg-primary px-3 py-0.5 rounded-full transition-colors"
             >
-              Daftar PMB 2025
+              Daftar PMB 2026
             </Link>
           </div>
         </Container>
