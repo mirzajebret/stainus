@@ -16,9 +16,9 @@ export default function AdmissionsCTA() {
             <Button size="lg" className="bg-white text-primary hover:bg-bg-soft w-full sm:w-auto px-10 text-lg font-bold border-none shadow-sm hover:scale-105 transition-transform">
               Daftar Sekarang
             </Button>
-            <Button size="lg" variant="ghost" className="border border-white/30 hover:bg-white/10 text-white w-full sm:w-auto px-10 text-lg font-bold">
+            {/* <Button size="lg" variant="ghost" className="border border-white/30 hover:bg-white/10 text-white w-full sm:w-auto px-10 text-lg font-bold">
               Hubungi Bagian Pendaftaran
-            </Button>
+            </Button> */}
           </div>
         </div>
       </Container>
