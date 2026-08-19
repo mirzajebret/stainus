@@ -69,12 +69,12 @@ export default function AdmissionsPage() {
                   <div className="space-y-4 text-text-body text-sm mb-8">
                     <div>
                       <span className="block font-semibold">Gelombang 1</span>
-                      Januari - April 2026
+                      April - Juni 2026
                     </div>
                     <hr className="border-border-main" />
                     <div>
                       <span className="block font-semibold">Gelombang 2</span>
-                      Mei - Juli 2026
+                      Juli - September 2026
                     </div>
                     <hr className="border-border-main" />
                     <div>
