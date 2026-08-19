@@ -67,7 +67,7 @@ export default function Footer() {
         <Container className="py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
-              <p className="font-bold text-white text-base">📢 Pendaftaran Mahasiswa Baru 2025/2026 Telah Dibuka!</p>
+              <p className="font-bold text-white text-base">📢 Pendaftaran Mahasiswa Baru 2026/2027 Telah Dibuka!</p>
               <p className="text-white/60 text-sm mt-0.5">Daftar sekarang dan wujudkan impian pendidikan Islam Anda bersama STAINUS.</p>
             </div>
             <Link
