@@ -38,19 +38,13 @@ export default function Hero() {
       <Container className="relative z-10 pt-16 pb-20">
         <div className="max-w-5xl">
 
-          {/* Label badge */}
-          <div className="inline-flex items-center gap-2 bg-primary/20 border border-primary/30 backdrop-blur-sm text-white px-4 py-1.5 rounded-full text-sm font-medium mb-8">
-            <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
-            PMB 2025 / 2026 — Pendaftaran Dibuka
-          </div>
-
           {/* Main Heading */}
           <h1 className="text-4xl md:text-5xl lg:text-[62px] font-extrabold text-white leading-[1.08] tracking-tight mb-6">
             Membangun Peradaban Islam yang{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-amber-300">
-               Profesional, Religius & Futuristik
+              Profesional, Religius & Futuristik
             </span>{' '}
-            
+
           </h1>
 
           {/* Description */}
@@ -61,7 +55,7 @@ export default function Hero() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-16">
-            <Link href="/admissions">
+            <Link href="/admissions/register">
               <Button
                 size="lg"
                 className="w-full sm:w-auto text-base px-10 shadow-lg shadow-primary/30 hover:shadow-primary/40 hover:-translate-y-0.5 transition-all duration-200"
@@ -101,7 +95,7 @@ export default function Hero() {
       </Container>
 
       {/* ── Scroll indicator ── */}
-     
+
     </section>
   );
 }

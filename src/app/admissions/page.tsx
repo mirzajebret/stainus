@@ -82,7 +82,7 @@ export default function AdmissionsPage() {
                       Rp 250.000,-
                     </div>
                   </div>
-                  <Button className="w-full">Daftar Sekarang</Button>
+                  <Button href="/admissions/register" className="w-full">Daftar Sekarang</Button>
                 </Card>
               </div>
             </div>

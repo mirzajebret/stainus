@@ -43,7 +43,7 @@ const socials = [
 const quickLinks = [
   { href: '/profile', label: 'Profil STAINUS' },
   { href: '/programs', label: 'Program Studi' },
-  { href: '/admissions', label: 'PMB 2026' },
+  { href: '/admissions/register', label: 'PMB 2026' },
   { href: '/news', label: 'Berita & Pengumuman' },
   { href: '/contact', label: 'Hubungi Kami' },
 ];
@@ -71,7 +71,7 @@ export default function Footer() {
               <p className="text-white/60 text-sm mt-0.5">Daftar sekarang dan wujudkan impian pendidikan Islam Anda bersama STAINUS.</p>
             </div>
             <Link
-              href="/admissions"
+              href="/admissions/register"
               className="flex items-center gap-2 bg-primary hover:bg-primary-hover text-white text-sm font-semibold px-6 py-2.5 rounded-full transition-colors whitespace-nowrap shrink-0"
             >
               Daftar Sekarang <ArrowRight size={16} />

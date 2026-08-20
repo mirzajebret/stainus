@@ -95,7 +95,7 @@ export default function Navbar() {
             </a>
             <span className="w-px h-4 bg-white/20 mx-1" />
             <Link
-              href="/admissions"
+              href="/admissions/register"
               className="text-[12px] font-semibold bg-primary/80 hover:bg-primary px-3 py-0.5 rounded-full transition-colors"
             >
               Daftar PMB 2026
@@ -194,7 +194,7 @@ export default function Navbar() {
             ))}
 
             <div className="ml-3 pl-3 border-l border-border-main">
-              <Button size="sm" className="font-semibold tracking-wide">
+              <Button href="/admissions/register" size="sm" className="font-semibold tracking-wide">
                 Daftar Sekarang
               </Button>
             </div>
@@ -249,8 +249,8 @@ export default function Navbar() {
           ))}
 
           <div className="mt-6 space-y-3">
-            <Button className="w-full" size="lg">Daftar Sekarang</Button>
-            <Button variant="outline" className="w-full" size="lg">Hubungi Kami</Button>
+            <Button href="/admissions/register" className="w-full" size="lg">Daftar Sekarang</Button>
+            <Button href="/contact" variant="outline" className="w-full" size="lg">Hubungi Kami</Button>
           </div>
         </div>
       </div>

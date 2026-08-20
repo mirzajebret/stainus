@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { cn } from '@/lib/utils';
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -6,6 +7,9 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
   size?: 'sm' | 'md' | 'lg';
   iconLeft?: React.ReactNode;
   iconRight?: React.ReactNode;
+  href?: string;
+  target?: string;
+  rel?: string;
 }
 
 export default function Button({
@@ -15,9 +19,10 @@ export default function Button({
   iconLeft,
   iconRight,
   children,
+  href,
   ...props
 }: ButtonProps) {
-  const baseStyles = "inline-flex items-center justify-center font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none";
+  const baseStyles = "inline-flex items-center justify-center font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none cursor-pointer";
   
   const variants = {
     primary: "bg-primary text-white hover:bg-primary-hover rounded-full",
@@ -33,19 +38,33 @@ export default function Button({
     lg: "h-14 px-8 text-lg",
   };
 
-  return (
-    <button
-      className={cn(
-        baseStyles,
-        variants[variant],
-        variant !== 'link' && sizes[size],
-        className
-      )}
-      {...props}
-    >
+  const combinedClassName = cn(
+    baseStyles,
+    variants[variant],
+    variant !== 'link' && sizes[size],
+    className
+  );
+
+  const innerContent = (
+    <>
       {iconLeft && <span className="mr-2">{iconLeft}</span>}
       {children}
       {iconRight && <span className="ml-2">{iconRight}</span>}
+    </>
+  );
+
+  if (href) {
+    const { type, ...linkProps } = props as any; // Strip button-specific props
+    return (
+      <Link href={href} className={combinedClassName} {...linkProps}>
+        {innerContent}
+      </Link>
+    );
+  }
+
+  return (
+    <button className={combinedClassName} {...props}>
+      {innerContent}
     </button>
   );
 }

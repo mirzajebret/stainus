@@ -13,7 +13,7 @@ export default function AdmissionsCTA() {
             Bergabunglah dengan ribuan mahasiswa yang telah memilih STAINUS sebagai pondasi untuk masa depan yang sukses.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-            <Button size="lg" className="bg-white text-primary hover:bg-bg-soft w-full sm:w-auto px-10 text-lg font-bold border-none shadow-sm hover:scale-105 transition-transform">
+            <Button href="/admissions/register" size="lg" className="bg-white text-primary hover:bg-bg-soft w-full sm:w-auto px-10 text-lg font-bold border-none shadow-sm hover:scale-105 transition-transform">
               Daftar Sekarang
             </Button>
             {/* <Button size="lg" variant="ghost" className="border border-white/30 hover:bg-white/10 text-white w-full sm:w-auto px-10 text-lg font-bold">
