@@ -5,9 +5,9 @@ import SectionTitle from '../common/SectionTitle';
 import ImageCard from '../common/ImageCard';
 
 const campusImages = [
-  { src: "images/gedung-utama-kampus.png", caption: "Gedung Utama Kampus" },
-  { src: "images/hero-bg-mahasiswa.png", caption: "Diskusi Mahasiswa" },
-  { src: "images/fotbar_staff.png", caption: "Mahasiswa Stainus Garut" }
+  { src: "/images/gedung-utama-kampus.png", caption: "Gedung Utama Kampus" },
+  { src: "/images/hero-bg-mahasiswa.png", caption: "Diskusi Mahasiswa" },
+  { src: "/images/fotbar_staff.png", caption: "Mahasiswa Stainus Garut" }
 
 ];
 

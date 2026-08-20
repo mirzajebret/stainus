@@ -9,16 +9,16 @@ import Link from 'next/link';
 
 const featuredPrograms = [
   {
-    id: 'pai',
+    id: 'hki',
     name: 'Prodi Hukum Keluarga Islam',
     description: 'Menghasilkan ahli hukum keluarga Islam yang kompeten, berintegritas, dan mampu menyelesaikan persoalan hukum modern.',
-    imageUrl: 'images/hukum_keluarga_islam.png'
+    imageUrl: '/images/hukum_keluarga_islam.png'
   },
   {
-    id: 'hki',
+    id: 'es',
     name: 'Prodi Ekonomi Syariah',
     description: 'Lulusan dipersiapkan menjadi profesional dan wirausahawan yang kompeten di bidang ekonomi dan keuangan syariah.',
-    imageUrl: 'images/ekonomi_syariah.png'
+    imageUrl: '/images/ekonomi_syariah.png'
   }
 ];
 

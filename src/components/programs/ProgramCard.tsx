@@ -15,7 +15,7 @@ interface ProgramCardProps {
 
 export default function ProgramCard({ id, name, description, imageUrl, className }: ProgramCardProps) {
   return (
-    <Link href={`/programs`} className="block group">
+    <Link href={`/programs/${id}`} className="block group">
       <Card className={cn("p-0 overflow-hidden h-full flex flex-col group-hover:scale-[1.02] transition-transform duration-300 group-hover:shadow-md border border-border-main/60", className)}>
         <div className="relative aspect-[4/3] overflow-hidden">
           <Image src={imageUrl} alt={name} fill className="object-cover transition-transform duration-700 group-hover:scale-105" />

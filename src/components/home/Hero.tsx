@@ -17,7 +17,7 @@ export default function Hero() {
       {/* ── Background Image with Overlay ── */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="images/hero-bg-mahasiswa.png"
+          src="/images/hero-bg-mahasiswa.png"
           alt="STAINUS Campus"
           fill
           className="object-cover"

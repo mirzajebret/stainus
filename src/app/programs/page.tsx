@@ -14,28 +14,16 @@ export const metadata: Metadata = {
 
 const allPrograms = [
   {
-    id: 'pai',
-    name: 'Pendidikan Agama Islam (PAI)',
-    description: 'Mencetak pendidik agama Islam yang profesional, inovatif, dan berakhlak mulia untuk tingkat dasar hingga menengah.',
-    imageUrl: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=2070&auto=format&fit=crop'
-  },
-  {
     id: 'hki',
     name: 'Hukum Keluarga Islam (HKI)',
     description: 'Menghasilkan ahli hukum keluarga Islam yang kompeten, berintegritas, dan mampu menyelesaikan persoalan hukum modern.',
-    imageUrl: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=2112&auto=format&fit=crop'
-  },
-  {
-    id: 'mpi',
-    name: 'Manajemen Pendidikan Islam (MPI)',
-    description: 'Mempersiapkan tenaga manajerial kependidikan yang ahli dalam mengelola institusi pendidikan Islam masa depan.',
-    imageUrl: 'https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop'
+    imageUrl: '/images/hukum_keluarga_islam.png'
   },
   {
     id: 'es',
     name: 'Ekonomi Syariah (ES)',
-    description: 'Menghasilkan praktisi dan pemikir ekonomi syariah yang handal untuk lembaga keuangan bank maupun non-bank.',
-    imageUrl: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=2070&auto=format&fit=crop'
+    description: 'Lulusan dipersiapkan menjadi profesional dan wirausahawan yang kompeten di bidang ekonomi dan keuangan syariah.',
+    imageUrl: '/images/ekonomi_syariah.png'
   }
 ];
 
