@@ -37,7 +37,7 @@ export default function ChairmanWelcome() {
               {/* Identity */}
               <div className="absolute bottom-0 left-0 right-0 p-5">
                 <p className="text-white font-bold text-base xl:text-lg leading-tight">
-                  Risan Sugiyasin, S.Pd., M.Pd.
+                  Risan Sugiayasin, S.Pd., M.Pd.
                 </p>
                 <p className="text-white/75 text-xs xl:text-sm mt-1">
                   Ketua STAINUS Garut
